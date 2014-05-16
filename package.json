@@ -1,0 +1,15 @@
+{
+	"name": "gb-toolbox",
+	"description": "Goonbee's toolbox for node.js",
+	"author" : "Luka Mirosevic <luka@goonbee.com>",
+	"version": "1.0.0",
+	"private": false,
+	"main": "toolbox.js",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/lmirosevic/gb-toolbox.git"
+	},
+	"dependencies": {
+		"underscore": "1.6.x"
+	}
+}
