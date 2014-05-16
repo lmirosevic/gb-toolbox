@@ -11,5 +11,6 @@
 	},
 	"dependencies": {
 		"underscore": "1.6.x"
-	}
+	},
+	"license": "Apache, Version 2.0"
 }
