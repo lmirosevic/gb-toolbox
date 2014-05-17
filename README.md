@@ -1,5 +1,4 @@
-gb-toolbox
-============
+# gb-toolbox ![Version](https://img.shields.io/npm/v/gb-toolbox.svg?style=flat)&nbsp;![License](https://img.shields.io/badge/license-Apache_2-green.svg?style=flat)
 
 Goonbee's toolbox for node.js
 
