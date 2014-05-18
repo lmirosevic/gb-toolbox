@@ -26,15 +26,6 @@ var Toolbox = function() {
 
   this.requiredVariables = p.requiredSomething('variable');
 
-  this.contains = function(array, target) {
-    if (array !== null) {
-      return array.indexOf(target) !== -1;
-    }
-    else {
-      return false;
-    }
-  };
-
   this.optional = function(variable, fallback) {
     return ((typeof variable !== 'undefined') && (variable !== null)) ? variable : fallback;
   };
@@ -44,7 +35,7 @@ var Toolbox = function() {
   };
 
   this.addToSet = function(array, item) {
-    if (!toolbox.contains(array, item)) array.push(item);
+    if (!_.contains(array, item)) array.push(item);
   };
 
   this.removeFromArray = function(array, item) {
