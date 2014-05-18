@@ -28,7 +28,7 @@ var Toolbox = function() {
 
   this.contains = function(array, target) {
     if (array !== null) {
-      return array.indexOf(target) != -1;
+      return array.indexOf(target) !== -1;
     }
     else {
       return false;
