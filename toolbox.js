@@ -26,12 +26,25 @@ var Toolbox = function() {
 
   this.requiredVariables = p.requiredSomething('variable');
 
+  this.contains = function(array, target) {
+    if (array !== null) {
+      return array.indexOf(target) != -1;
+    }
+    else {
+      return false;
+    }
+  };
+
   this.optional = function(variable, fallback) {
     return ((typeof variable !== 'undefined') && (variable !== null)) ? variable : fallback;
   };
 
   this.getCurrentISODate = function() {
     return new Date().toISOString();
+  };
+
+  this.addToSet = function(array, item) {
+    if (!toolbox.contains(array, item)) array.push(item);
   };
 
   this.threshold = function(variable, min, max) {
