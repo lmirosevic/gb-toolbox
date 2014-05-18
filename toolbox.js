@@ -47,6 +47,13 @@ var Toolbox = function() {
     if (!toolbox.contains(array, item)) array.push(item);
   };
 
+  this.removeFromArray = function(array, item) {
+    var index = array.indexOf(item);
+    if (index !== -1) {
+      array.splice(index, 1);
+    }
+  };
+
   this.threshold = function(variable, min, max) {
     if (variable > max) {
       return max;
