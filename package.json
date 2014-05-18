@@ -2,7 +2,7 @@
 	"name": "gb-toolbox",
 	"description": "Goonbee's toolbox for node.js",
 	"author" : "Luka Mirosevic <luka@goonbee.com>",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": false,
 	"main": "toolbox.js",
 	"repository": {
